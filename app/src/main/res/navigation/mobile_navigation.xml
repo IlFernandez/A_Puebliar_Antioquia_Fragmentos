@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_recomendados">
+
+    <activity
+        android:id="@+id/inicioSesionActivity"
+        android:name="com.example.apuebliarantioquia.InicioSesionActivity"
+        android:label="activity_inicio_sesion"
+        tools:layout="@layout/activity_inicio_sesion" />
+    <fragment
+        android:id="@+id/nav_recomendados"
+        android:name="com.example.apuebliarantioquia.ui.fragmentos.RecomendadosFragment"
+        android:label="@string/menu_recomendados"
+        tools:layout="@layout/fragment_recomendados" />
+    <fragment
+        android:id="@+id/nav_pueblos"
+        android:name="com.example.apuebliarantioquia.ui.fragmentos.pueblosFragment"
+        android:label="@string/menu_pueblos"
+        tools:layout="@layout/fragment_pueblos" />
+    <fragment
+        android:id="@+id/nav_opiniones"
+        android:name="com.example.apuebliarantioquia.ui.fragmentos.OpinionesFragment"
+        android:label="@string/menu_opiniones"
+        tools:layout="@layout/fragment_opiniones" />
+    <fragment
+        android:id="@+id/nav_negocios"
+        android:name="com.example.apuebliarantioquia.ui.fragmentos.NegociosFragment"
+        android:label="@string/menu_negocios"
+        tools:layout="@layout/fragment_negocios" />
+    <fragment
+        android:id="@+id/nav_acerca"
+        android:name="com.example.apuebliarantioquia.ui.fragmentos.AcercaFragment"
+        android:label="@string/menu_acerca"
+        tools:layout="@layout/fragment_acerca" />
+    <fragment
+        android:id="@+id/nav_califica"
+        android:name="com.example.apuebliarantioquia.ui.fragmentos.CalificaFragment"
+        android:label="@string/menu_califica"
+        tools:layout="@layout/fragment_califica" />
+</navigation>

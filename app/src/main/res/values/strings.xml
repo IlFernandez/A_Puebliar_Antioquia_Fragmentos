@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">A Puebliar Antioquia</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Bienvenido</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="cerrar_sesion">Salir</string>
+
+    <string name="menu_inicio_sesion">Iniciar Sesión</string>
+    <string name="menu_pueblos">Pueblos</string>
+    <string name="menu_opiniones">Opiniones</string>
+    <string name="menu_recomendados">Recomendados</string>
+    <string name="menu_negocios">Negocios</string>
+    <string name="menu_acerca">Acerca de</string>
+    <string name="menu_califica">Califícanos</string>
+
+    <string name="titulo">Formulario de Registro</string>
+    <string name="nombre">Nombre</string>
+    <string name="correo">Correo Electrónico</string>
+    <string name="telefono">Teléfono</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="rep_contrasena">Repetir Contraseña</string>
+    <string name="cedula">Cédula</string>
+    <string name="genero">Género</string>
+    <string name="masculino">Masculino</string>
+    <string name="femenino">Femenino</string>
+    <string name="fecha_nacimiento">Fecha de Nacimiento</string>
+    <string name="fecha">DD/MM/YYYY</string>
+    <string name="ciudad_nacimiento">Ciudad de Nacimiento</string>
+    <string name="pasatiempos">Pasatiempos</string>
+    <string name="leer">Leer</string>
+    <string name="videojuegos">Videojuegos</string>
+    <string name="deportes">Deportes</string>
+    <string name="dormir">Dormir</string>
+    <string name="guardar">Guardar</string>
+    <string name="resultado" />
+    <string name="iniciar_sesion">Inicio de sesión</string>
+    <string name="contrasena_inicio">Contraseña</string>
+    <string name="cerrar">Cerrar sesión</string>
+    <string name="titulo_main">Bienvenido</string>
+    <string name="correo_login">Correo</string>
+
+    <string-array name="lista_ciudades">
+        <item></item>
+        <item>Medellín</item>
+        <item>Bogotá</item>
+        <item>Cali</item>
+        <item>Pasto</item>
+        <item>Cartagena</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/inicioSesionActivity"
+            android:icon="@drawable/ic_login"
+            android:title="@string/menu_inicio_sesion" />
+
+        <item
+            android:id="@+id/nav_pueblos"
+            android:icon="@drawable/ic_location"
+            android:title="@string/menu_pueblos" />
+
+        <item
+            android:id="@+id/nav_opiniones"
+            android:icon="@drawable/ic_opinion"
+            android:title="@string/menu_opiniones" />
+
+        <item
+            android:id="@+id/nav_recomendados"
+            android:icon="@drawable/ic_sites"
+            android:title="@string/menu_recomendados" />
+
+        <item
+            android:id="@+id/nav_negocios"
+            android:icon="@drawable/ic_shop"
+            android:title="@string/menu_negocios" />
+
+        <item
+            android:id="@+id/nav_acerca"
+            android:icon="@drawable/ic_info"
+            android:title="@string/menu_acerca" />
+
+        <item
+            android:id="@+id/nav_califica"
+            android:icon="@drawable/ic_contract"
+            android:title="@string/menu_califica" />
+    </group>
+</menu>
